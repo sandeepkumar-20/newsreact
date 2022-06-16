@@ -1,0 +1,142 @@
+
+body{
+    /* background-image: url("../images/bg1.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    font-size: 120%;
+    font-weight:500;
+}
+
+
+
+
+
+li{
+    display: inline;
+    margin: auto;
+}
+a{
+    display: inline;
+    text-decoration: none;
+    list-style: none;color: rgb(240, 239, 239);
+    font-size: x-large;
+    padding-right: 10px;
+}
+ul{
+    margin: auto; 
+    display: inline;
+}
+
+
+
+
+
+.mainhead{
+    box-sizing: border-box;
+    margin-top:6%;
+    text-align:center;
+    clear: both;
+}
+
+.mainhead h1{
+    font-size:xxx-large;
+}
+
+.hding{
+    margin:auto;
+}
+
+.mainhead img{
+    display: inline;
+    text-align:center;
+}
+.rotate {
+    animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+
+
+
+
+.corono_update
+{
+   margin-top: 4%;
+   text-align: center;
+}
+.chead{
+    text-align: center;
+}
+.deaths{
+    display: inline;
+    margin:auto;
+}
+
+.total-cases{
+    display: inline;
+    margin:auto;
+}
+.recovered{
+    display: inline;
+    margin:auto;
+}
+
+
+
+
+#aboutid
+{
+    margin:8%;
+}
+.abouthead
+{
+    text-align: center;
+    padding: 3%;
+}
+
+
+
+.section_header
+{
+    text-align: center;
+    padding:2%;
+}
+#sympid{
+    margin-top: 7%;
+}
+
+
+
+#preventid
+{
+    margin: 7%;
+    margin-top: 5%;
+}
+.ma{
+    margin:2%;
+    padding: 0%;
+}
+.one{
+ text-align: center;
+ margin:auto;
+ padding: auto;
+ width: fit-content;
+}
+.two{
+    margin:auto;
+    text-align: left;
+}
+
+
+a:hover{
+    color: rgb(18, 26, 53);
+    
+}

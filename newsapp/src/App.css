@@ -1,0 +1,279 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Ubuntu:wght@300;400&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  background-color: rgb(156, 42, 42);
+  /* background-color: rgb(41, 180, 145); */
+  position:fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 50px;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  vertical-align: centre;
+  padding: 0.8%;
+  
+}
+ul li{
+  padding-right: 1%;
+  font-size: larger;
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
+li{
+  list-style: none;
+  
+}
+
+:link{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  height: fit-content;
+  
+}
+
+.contain{
+  margin-top: 4.2%;
+  margin-left: 6%;
+  margin-right: 6%;
+}  
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.singlebox{
+  display: flex;
+  position: sticky;
+  flex-direction: column;
+  padding: 2%;
+  /* background-color:rgb(228, 228, 228); */background-color: rgb(235, 235, 235);
+  margin: 15px;
+  width: min-content;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.singlebox:hover{
+  /* background-color: rgb(54, 54, 54); */
+  /* color: white; */
+  
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 5px 7px;
+}
+
+.singlebox img{
+  height: 160px;
+  width: 280px;
+  border: 4px solid black;
+  
+}
+
+.title{
+  font-weight: 620;
+  font-size: large;
+  /* padding-top: 2%;
+  padding-bottom: 2%; */
+}
+
+.desc{
+  font-size: medium;
+}
+/* 
+.space{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.space img{
+  text-align: center;
+  vertical-align:middle;
+  height: 25px;
+  width: 40px;
+  cursor: pointer;
+}
+
+
+.space button[disabled]{
+  background-color: rgb(94, 94, 94);
+  border: 2px solid black;
+} */
+
+
+/* loader */
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: rgb(12, 12, 12);
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+.center{
+  text-align: center;
+}
+/* loading over */
+
+
+
+
+
+
+
+
+
+/*covid*/
+/* .forcolor{
+  background-color: rgb(19, 36, 58);
+  color: white;
+} */
+.mainhead{
+  box-sizing: border-box;
+  margin-top:6%;
+  text-align:center;
+  clear: both;
+}
+
+.mainhead h1{
+  font-size:xxx-large;
+}
+
+.hding{
+  margin:auto;
+  padding-top: 5%;
+}
+
+.mainhead img{
+  display: inline;
+  text-align:center;
+}
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+
+
+
+.corono_update
+{
+ margin-top: 4%;
+ text-align: center;
+ font-size: 120%;
+    font-weight:500;
+}
+.chead{
+  text-align: center;
+}
+.deaths{
+  display: inline;
+  margin:auto;
+}
+
+.total-cases{
+  display: inline;
+  margin:auto;
+}
+.recovered{
+  display: inline;
+  margin:auto;
+}
+
+
+
+
+#aboutid
+{
+  margin:8%;
+}
+.abouthead
+{
+  text-align: center;
+  padding: 3%;
+}
+
+
+
+.section_header
+{
+  text-align: center;
+  padding:2%;
+}
+#sympid{
+  margin-top: 7%;
+}
+
+
+
+#preventid
+{
+  margin: 7%;
+  margin-top: 5%;
+}
+.ma{
+  margin:2%;
+  padding: 0%;
+}
+.one{
+text-align: center;
+margin:auto;
+padding: auto;
+width: fit-content;
+}
+.two{
+  margin:auto;
+  text-align: left;
+}
+
+
+
+
+
